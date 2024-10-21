@@ -1,0 +1,18 @@
+export const regions = [
+  {id: 1, title: 'North', selected: false},
+  {id: 2, title: 'South', selected: false},
+  {id: 3, title: 'West', selected: false},
+  {id: 4, title: 'East', selected: false},
+  {id: 5, title: 'India', selected: false},
+  {id: 6, title: 'India', selected: false},
+  {id: 7, title: 'India', selected: false},
+  {id: 8, title: 'India', selected: false},
+  {id: 9, title: 'India', selected: false},
+  {id: 10, title: 'India', selected: false},
+  {id: 11, title: 'India', selected: false},
+  {id: 12, title: 'India', selected: false},
+  {id: 13, title: 'India', selected: false},
+  {id: 14, title: 'India', selected: false},
+  {id: 15, title: 'India', selected: false},
+  {id: 16, title: 'India', selected: false},
+];

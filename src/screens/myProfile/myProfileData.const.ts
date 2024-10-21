@@ -1,0 +1,148 @@
+import imageIndex from '@imageIndex';
+
+const userData = {
+  userId: '6668160045c99324a9691f8e',
+  firstName: 'Alex',
+  lastName: 'alex',
+  subscribers: '219',
+  EducationAndQualification: 'Fitness Trainer',
+  Location: 'india',
+  YearOfExperience: '5',
+  About: 'the abouts',
+  Instagram: '@demo',
+  Tiktok: '@demo',
+  userProfile: 'image',
+  userBackgroundImage: 'image',
+  AddExpertise: [
+    {
+      id: 1,
+      title: 'Crossfit',
+    },
+    {
+      title: 'Crossfit',
+    },
+  ],
+  reviews: [
+    {
+      id: 1,
+      profileImage: imageIndex?.profileImage,
+      comment: 'Cool Program! quite intense but definitely you can see results',
+      createdAt: '3d ago',
+      userName: 'Oanna',
+      rate: 4,
+    },
+  ],
+  totalReviews: 7,
+  overallRating: {
+    count: 219,
+    ratings: 4.9,
+  },
+};
+
+const workoutPlans = [
+  {
+    id: 1,
+    tag: 'crossfit',
+    rating: 4.7,
+    subscriber: '16k',
+    title: 'Bodyweight only',
+    duration: '12 weeks',
+    level: 'intermediate',
+    name: 'Alex Margot',
+    backgroundImage: imageIndex.frame,
+    price: '12.99',
+  },
+  {
+    id: 2,
+    tag: 'yoga',
+    rating: 4.5,
+    subscriber: '12k',
+    title: 'Mind and Body',
+    duration: '8 weeks',
+    level: 'beginner',
+    name: 'Jessica Smith',
+    backgroundImage: imageIndex.frame,
+    price: '9.99',
+  },
+  {
+    id: 3,
+    tag: 'running',
+    rating: 4.8,
+    subscriber: '20k',
+    title: 'Couch to 5k',
+    duration: '10 weeks',
+    level: 'beginner',
+    name: 'Mike Johnson',
+    backgroundImage: imageIndex.frame,
+    price: '7.99',
+  },
+  {
+    id: 4,
+    tag: 'weightlifting',
+    rating: 4.6,
+    subscriber: '18k',
+    title: 'Powerlifting',
+    duration: '16 weeks',
+    level: 'intermediate',
+    name: 'Sarah Lee',
+    backgroundImage: imageIndex.frame,
+    price: '14.99',
+  },
+  {
+    id: 5,
+    tag: 'cycling',
+    rating: 4.9,
+    subscriber: '14k',
+    title: 'Road Cycling',
+    duration: '14 weeks',
+    level: 'advanced',
+    name: 'David Kim',
+    backgroundImage: imageIndex.frame,
+    price: '19.99',
+  },
+];
+
+const reviewsList = [
+  {
+    id: 1,
+    profileImage: imageIndex.profileImage,
+    createdAt: '3d ago',
+    userName: 'Oanna',
+    comment: 'Cool program! quite intense but definitely you can see results!',
+    rate: 4.9,
+  },
+  {
+    id: 2,
+    profileImage: imageIndex.profileImage,
+    createdAt: '3d ago',
+    userName: 'Oanna',
+    comment: 'Cool program! quite intense but definitely you can see results!',
+    rate: 4.7,
+  },
+  {
+    id: 3,
+    profileImage: imageIndex.profileImage,
+    createdAt: '3d ago',
+    userName: 'Oanna',
+    comment: 'Cool program! quite intense but definitely you can see results!',
+    rate: 4.8,
+  },
+  {
+    id: 4,
+    profileImage: imageIndex.profileImage,
+    createdAt: '3d ago',
+    userName: 'Oanna',
+    comment: 'Cool program! quite intense but definitely you can see results!',
+    rate: 4.6,
+  },
+  {
+    id: 5,
+    profileImage: imageIndex.profileImage,
+    createdAt: '3d ago',
+    userName: 'Oanna',
+    comment: 'Cool program! quite intense but definitely you can see results!',
+    rate: 4.9,
+  },
+];
+
+export {workoutPlans, reviewsList, userData};

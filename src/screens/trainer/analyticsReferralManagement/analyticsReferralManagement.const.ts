@@ -1,0 +1,102 @@
+import svgIndex from '@svgIndex';
+
+const referralManagementList = [
+  {
+    id: 1,
+    referralCode: 'SUPERSAVER',
+    referredBy: 'John Warner',
+    noOfSubs: '35,000',
+    conversionRate: '10%',
+    revenueGenerated: '$23,548',
+    discount: '15%',
+  },
+  {
+    id: 2,
+    referralCode: 'SUPERSAVER',
+    referredBy: 'John Warner',
+    noOfSubs: '35,000',
+    conversionRate: '10%',
+    revenueGenerated: '$23,548',
+    discount: '15%',
+  },
+  {
+    id: 3,
+    referralCode: 'SUPERSAVER',
+    referredBy: 'John Warner',
+    noOfSubs: '35,000',
+    conversionRate: '10%',
+    revenueGenerated: '$23,548',
+    discount: '15%',
+  },
+  {
+    id: 4,
+    referralCode: 'SUPERSAVER',
+    referredBy: 'John Warner',
+    noOfSubs: '35,000',
+    conversionRate: '10%',
+    revenueGenerated: '$23,548',
+    discount: '15%',
+  },
+  {
+    id: 5,
+    referralCode: 'SUPERSAVER',
+    referredBy: 'John Warner',
+    noOfSubs: '35,000',
+    conversionRate: '10%',
+    revenueGenerated: '$23,548',
+    discount: '15%',
+  },
+  {
+    id: 6,
+    referralCode: 'SUPERSAVER',
+    referredBy: 'John Warner',
+    noOfSubs: '35,000',
+    conversionRate: '10%',
+    revenueGenerated: '$23,548',
+    discount: '15%',
+  },
+  {
+    id: 7,
+    referralCode: 'SUPERSAVER',
+    referredBy: 'John Warner',
+    noOfSubs: '35,000',
+    conversionRate: '10%',
+    revenueGenerated: '$23,548',
+    discount: '15%',
+  },
+  {
+    id: 8,
+    referralCode: 'SUPERSAVER',
+    referredBy: 'John Warner',
+    noOfSubs: '35,000',
+    conversionRate: '10%',
+    revenueGenerated: '$23,548',
+    discount: '15%',
+  },
+  {
+    id: 9,
+    referralCode: 'SUPERSAVER',
+    referredBy: 'John Warner',
+    noOfSubs: '35,000',
+    conversionRate: '10%',
+    revenueGenerated: '$23,548',
+    discount: '15%',
+  },
+  {
+    id: 10,
+    referralCode: 'SUPERSAVER',
+    referredBy: 'John Warner',
+    noOfSubs: '35,000',
+    conversionRate: '10%',
+    revenueGenerated: '$23,548',
+    discount: '15%',
+  },
+];
+
+const bottomSheetList = [
+  {id: 1, title: 'Edit', icon: svgIndex?.editPencil},
+  {id: 2, title: 'Deactivate', icon: svgIndex?.deactivate},
+  {id: 3, title: 'Delete', icon: svgIndex?.deletePurpal},
+];
+
+export {bottomSheetList, referralManagementList};
